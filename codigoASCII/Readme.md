@@ -20,8 +20,9 @@ Para poder visualizar todos los caracteres ASCII y su correspondiente valor num�
 
 El ciclo para se expresa de la siguiente manera
 
-Para (valor inicial; condición de parada; patrón de incremento){ Bloque de sentencias }
+para (valor inicial; condición de parada; patrón de incremento){ Bloque de sentencias }
 
+```c
 #include <stdio.h> 
 
 int main(){ 
@@ -35,3 +36,4 @@ printf(“%d\t%d\n”,I,(char)i);
 return 0; 
 
 }
+```
