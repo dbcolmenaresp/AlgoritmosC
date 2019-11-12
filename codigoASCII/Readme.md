@@ -1,4 +1,4 @@
-Programa para mostrar código ASCII en pantalla
+# Programa para mostrar código ASCII en pantalla
 
 Programa escrito en lenguaje C que muestra en pantalla los caracteres imprimibles del código ASCII Se pretende diseñar y construir un programa que permita imprimir en pantalla los códigos numéricos correspondientes a los caracteres ASCII, con la finalidad de conocerlos.
 
