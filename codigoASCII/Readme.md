@@ -4,7 +4,9 @@ Programa escrito en lenguaje C que muestra en pantalla los caracteres imprimible
 
 Para la construcción del programa propuesto, se procederá a plantear las diferentes etapas necesarias para la construcción de un programa, partiendo del análisis de los datos que deben ser manipulados, el diseño del algoritmo necesario para su construcción, y su codificación en el lenguaje de programación C.
 
-Para el diseño de este algoritmo no se requiere el ingreso de ningún tipo de información por parte del usuario, por consiguiente el conjunto de datos de entrada es el conjunto vacío. Precondición {Ø}
+Para el diseño de este algoritmo no se requiere el ingreso de ningún tipo de información por parte del usuario, por consiguiente el conjunto de datos de entrada es el conjunto vacío. 
+
+Precondición {Ø}
 
 Los datos que se requiere al final del algoritmo son los caracteres imprimibles del código ASCII, junto con su equivalente código numérico correspondiente a dicho carácter.
 
@@ -12,7 +14,7 @@ Poscondición {x | x = carácter imprimible del código ASCII, y | y = código n
 
 Primeramente se debe determinar cuál es el primer carácter ASCII imprimible y cuál es el último, para posteriormente determinar su valor numérico y mostrarlos ambos en pantalla. El primer carácter ASCII imprimible es el símbolo signo de admiración (!), al cual le corresponde el valor numérico 33 y el ultimo carácter imprimible es la tilde (~), al cual le corresponde el valor numérico 126.
 
-Para mostrar en pantalla los caracteres ASCII imprimibles y los códigos numéricos correspondientes a cada símbolo, se debe conocer el concepto de tipo de dato carácter. El tipo de dato carácter se usa para representar un carácter específico del grupo de caracteres ASCII. Para representar un carácter, se debe encerrar entre comillas simples de la siguiente manera ‘a’.
+Para mostrar en pantalla los caracteres ASCII imprimibles y los códigos numéricos correspondientes a cada símbolo, se debe conocer el concepto de tipo de dato[tipo de dato](https://es.wikipedia.org/wiki/Tipo_de_dato) carácter. El tipo de dato carácter se usa para representar un carácter específico del grupo de caracteres ASCII. Para representar un carácter, se debe encerrar entre comillas simples de la siguiente manera ‘a’.
 
 Para mostrar el código numérico de cada carácter ASCII se debe tener claro la conversión de un dato carácter en su correspondiente valor numérico. Para mostrar el valor numérico de un carácter ASCIi, se debe hacer la transformación de dicho valor, indicando entre paréntesis el tipo de valor al cual se quiere convertir dicho carácter, de la siguiente manera (entero) ‘a’. Un valor numérico corresponde a un valor entero entre 0 y 32768, el cual puede ser usado en cualquier operación que amerite un cálculo numérico.
 
