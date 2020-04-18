@@ -29,13 +29,13 @@ para (valor inicial; condición de parada; patrón de incremento){ Bloque de sen
 
 int main(){ 
 
-int i; 
+    int i; 
 
-for(i=33;i<127;i++){   
-printf(“%d\t%d\n”,I,(char)i);   
-} 
+    for(i=33;i<127;i++){   
+        printf(“%d\t%d\n”,i,(char)i);   
+    } 
 
-return 0; 
+    return 0; 
 
 }
 ```
